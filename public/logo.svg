@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&amp;display=swap');
+      .logo-text {
+        font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+        letter-spacing: 0.04em;
+        fill: #dc2626;
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+
+  <!-- Emblem Centered (width: 240, height: 240, centered at x=480, y=125) -->
+  <g transform="translate(480, 125) scale(0.65)">
+    <!-- Central Navy Circle -->
+    <circle cx="0" cy="0" r="17" fill="#0a192f" />
+
+    <!-- Top Branch (Red: 0 deg) -->
+    <g transform="rotate(0)">
+      <rect x="-7.5" y="-126" width="15" height="64" rx="7.5" fill="#dc2626" />
+      <circle cx="0" cy="-62" r="16.5" fill="#dc2626" />
+      <circle cx="0" cy="-126" r="16.5" fill="#dc2626" />
+      <circle cx="-41.2" cy="-82.2" r="16.5" fill="#dc2626" />
+      <circle cx="41.2" cy="-82.2" r="16.5" fill="#dc2626" />
+    </g>
+
+    <!-- Bottom Branch (Red: 180 deg) -->
+    <g transform="rotate(180)">
+      <rect x="-7.5" y="-126" width="15" height="64" rx="7.5" fill="#dc2626" />
+      <circle cx="0" cy="-62" r="16.5" fill="#dc2626" />
+      <circle cx="0" cy="-126" r="16.5" fill="#dc2626" />
+      <circle cx="-41.2" cy="-82.2" r="16.5" fill="#dc2626" />
+      <circle cx="41.2" cy="-82.2" r="16.5" fill="#dc2626" />
+    </g>
+
+    <!-- Top-Right Branch (Navy: 60 deg) -->
+    <g transform="rotate(60)">
+      <rect x="-7.5" y="-126" width="15" height="64" rx="7.5" fill="#0a192f" />
+      <circle cx="0" cy="-62" r="16.5" fill="#0a192f" />
+      <circle cx="0" cy="-126" r="16.5" fill="#0a192f" />
+      <circle cx="-41.2" cy="-82.2" r="16.5" fill="#0a192f" />
+      <circle cx="41.2" cy="-82.2" r="16.5" fill="#0a192f" />
+    </g>
+
+    <!-- Bottom-Right Branch (Navy: 120 deg) -->
+    <g transform="rotate(120)">
+      <rect x="-7.5" y="-126" width="15" height="64" rx="7.5" fill="#0a192f" />
+      <circle cx="0" cy="-62" r="16.5" fill="#0a192f" />
+      <circle cx="0" cy="-126" r="16.5" fill="#0a192f" />
+      <circle cx="-41.2" cy="-82.2" r="16.5" fill="#0a192f" />
+      <circle cx="41.2" cy="-82.2" r="16.5" fill="#0a192f" />
+    </g>
+
+    <!-- Bottom-Left Branch (Navy: 240 deg) -->
+    <g transform="rotate(240)">
+      <rect x="-7.5" y="-126" width="15" height="64" rx="7.5" fill="#0a192f" />
+      <circle cx="0" cy="-62" r="16.5" fill="#0a192f" />
+      <circle cx="0" cy="-126" r="16.5" fill="#0a192f" />
+      <circle cx="-41.2" cy="-82.2" r="16.5" fill="#0a192f" />
+      <circle cx="41.2" cy="-82.2" r="16.5" fill="#0a192f" />
+    </g>
+
+    <!-- Top-Left Branch (Navy: 300 deg) -->
+    <g transform="rotate(300)">
+      <rect x="-7.5" y="-126" width="15" height="64" rx="7.5" fill="#0a192f" />
+      <circle cx="0" cy="-62" r="16.5" fill="#0a192f" />
+      <circle cx="0" cy="-126" r="16.5" fill="#0a192f" />
+      <circle cx="-41.2" cy="-82.2" r="16.5" fill="#0a192f" />
+      <circle cx="41.2" cy="-82.2" r="16.5" fill="#0a192f" />
+    </g>
+  </g>
+
+  <!-- Red Company Name Text Matching Uploaded Image Exactly -->
+  <text x="480" y="300" class="logo-text">
+    CAREER RECRUIT AND IMMIGRATIONS CONSULTANCY
+  </text>
+</svg>
